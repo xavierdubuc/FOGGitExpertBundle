@@ -1,0 +1,7 @@
+{
+    "name": "friendsofgit/gitexpert-bundle",
+    "description": "Provides some commands and other stuff to ease the work with git and a Symfony project.",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
