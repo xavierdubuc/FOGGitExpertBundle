@@ -11,7 +11,7 @@ This bundle is in DEVELOPMENT, so any comment, help or review is greatly welcome
 //composer.json
 {
     "require": {
-        "tagexpert/gitexpert" : "*"
+        "friendsofgit/gitexpert-bundle" : "*"
     }
 }
 ...
