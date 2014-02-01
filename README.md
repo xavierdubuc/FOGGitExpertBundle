@@ -60,4 +60,4 @@ The command workflow is :
     - Else do nothing
 * If [ElasticaBundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle) is installed, it populates the indexes
 * Clear the caches (via symfony command if ```--hard``` option is not set, via rm -rf otherwise)
-* Install the assets <a href="www.xavierdubuc.com" target="_blank">My site</a>
+* Install the assets <a href="http://www.xavierdubuc.com" target="_blank">My site</a>
