@@ -4,7 +4,9 @@
     "description": "Provides some commands and other stuff to ease the work with git and a Symfony project.",
     "keywords" : ["git", "team"],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.3",
+        "doctrine/doctrine-bundle": "*"
     },
     "authors": [
         {
@@ -14,6 +16,10 @@
             "role": "Developer"
         }
     ],
+    "suggest": {
+        "willdurand/faker-bundle": "Needed if you want the command to load your demo content",
+        "doctrine/doctrine-fixtures-bundle": "Needed if you want to load your basic content when resetting via the command"
+    },
     "autoload": {
         "psr-0": { "FOG\\GitExpertBundle": "" }
     },
