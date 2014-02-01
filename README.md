@@ -10,7 +10,7 @@ This bundle is in DEVELOPMENT, so any comment, help or review is greatly welcome
 ```javascript
 //composer.json
 {
-    "require: {
+    "require": {
         "tagexpert/gitexpert" : "*"
     }
 }
