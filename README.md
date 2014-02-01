@@ -51,12 +51,12 @@ and cache/dev directories
 * ```--reset``` Reset the database
 
 The command workflow is :
-# If ```--reset``` option is set, drop database & recreate the database
-# If ```--reset``` option is set, load fixtures (DoctrineFixturesBundle) and demo content (FakerBundle)
-# Check if doctrine schema is valid
+* If ```--reset``` option is set, drop database & recreate the database
+* If ```--reset``` option is set, load fixtures (DoctrineFixturesBundle) and demo content (FakerBundle)
+* Check if doctrine schema is valid
 ** If the schema is not valid, abort
 ** Else if the schema is valid but not synced with database, update the database 
 ** Else do nothing
-# If Elastica is used, it populates the indexes
-# Clear the caches (via symfony command if ```--hard``` option is not set, via rm -rf otherwise)
-# Install the assets
+* If Elastica is used, it populates the indexes
+* Clear the caches (via symfony command if ```--hard``` option is not set, via rm -rf otherwise)
+* Install the assets
