@@ -3,5 +3,13 @@
     "description": "Provides some commands and other stuff to ease the work with git and a Symfony project.",
     "require": {
         "php": ">=5.3.0"
-    }
+    },
+    "authors": [
+        {
+            "name": "Xavier Dubuc",
+            "email": "contact@xavierdubuc.com",
+            "homepage": "http://www.xavierdubuc.com",
+            "role": "Developer"
+        }
+    ]
 }
