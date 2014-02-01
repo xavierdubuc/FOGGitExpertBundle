@@ -12,5 +12,9 @@
             "homepage": "http://www.xavierdubuc.com",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": { "FOG\\GitExpertBundle": "" }
+    },
+    "target-dir": "FOG/GitExpertBundle"
 }
