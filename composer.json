@@ -1,5 +1,6 @@
 {
     "name": "friendsofgit/gitexpert-bundle",
+    "type": "symfony-bundle",
     "description": "Provides some commands and other stuff to ease the work with git and a Symfony project.",
     "keywords" : ["git", "team"],
     "require": {
