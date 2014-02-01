@@ -52,12 +52,12 @@ and cache/dev directories
 
 The command workflow is :
 * If ```--reset``` option is set, drop database & recreate the database
-* If ```--reset``` option is set, load fixtures ([DoctrineFixturesBundle](https://github.com/doctrine/DoctrineFixturesBundle))
-  and demo content ([FakerBundle](https://github.com/willdurand/BazingaFakerBundle))
+* If ```--reset``` option is set, load fixtures (<a href="https://github.com/doctrine/DoctrineFixturesBundle" target="_blank">DoctrineFixturesBundle</a>)
+  and demo content (<a href="https://github.com/willdurand/BazingaFakerBundle" target="_blank">FakerBundle</a>)
 * Check if doctrine schema is valid
     - If the schema is not valid, abort
     - Else if the schema is valid but not synced with database, update the database 
     - Else do nothing
-* If [ElasticaBundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle) is installed, it populates the indexes
+* If <a href="https://github.com/FriendsOfSymfony/FOSElasticaBundle" target="_blank">ElasticaBundle</a> is installed, it populates the indexes
 * Clear the caches (via symfony command if ```--hard``` option is not set, via rm -rf otherwise)
 * Install the assets <a href="http://www.xavierdubuc.com" target="_blank">My site</a>
